@@ -8,6 +8,11 @@ author:              Masashi Fujita
 maintainer:          objectxtreme@gmail.com
 copyright:           Copyright (c) Masashi Fujita
 category:            Web
+
+ghc-options:
+- -rtsopts
+- "-with-rtsopts=-N -I0 -qg -qb"
+
 extra-source-files:
 - README.md
 
