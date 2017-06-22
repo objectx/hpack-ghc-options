@@ -11,7 +11,7 @@ category:            Web
 
 ghc-options:
 - -rtsopts
-- "-with-rtsopts=-N -I0 -qg -qb"
+- -with-rtsopts="-N -I0 -qg -qb"
 
 extra-source-files:
 - README.md
