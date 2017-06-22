@@ -1,0 +1,20 @@
+name:                hpack-ghc-options
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/objectx/hpack-ghc-options#readme
+license:             BSD3
+author:              Masashi Fujita
+maintainer:          objectxtreme@gmail.com
+copyright:           Copyright (c) Masashi Fujita
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  hpack-ghc-options:
+    source-dirs:      src
+    main:             Main.hs
